@@ -22,7 +22,7 @@ def init():
 # for x and y co-ordinates
 xdata, ydata = [], []
 
-num = math.e
+num = math.pi
 # animation function
 def animate(i):  
     # pt is the complex number determined
@@ -46,7 +46,7 @@ def animate(i):
 
 # calling the animation function
 anim = animation.FuncAnimation(fig, animate, init_func = init,
-                               frames = 10000, interval = 10, blit = True)
+                               frames = 1000, interval = 10, blit = True)
 
 animwriter = animation.FFMpegWriter(fps=30)
 # saves the animation in our desktop
