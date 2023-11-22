@@ -25,9 +25,9 @@ xdata, ydata = [], []
 num = math.e
 # animation function  
 def animate(i):  
-    # pos is the complex number determined
+    # pt is the complex number determined
     # by the frame number
-    theta = i / 100
+    theta = i / 20
     a = 1j ** (theta * 2 / math.pi)
     b = 1j ** (num * theta * 2 / math.pi)
     pt = a + b
@@ -46,7 +46,7 @@ def animate(i):
 
 # calling the animation function      
 anim = animation.FuncAnimation(fig, animate, init_func = init,  
-                               frames = 500, interval = 10, blit = True)  
+                               frames = 1000, interval = 10, blit = True)  
 
 animwriter = animation.FFMpegWriter(fps=30)
 # saves the animation in our desktop
