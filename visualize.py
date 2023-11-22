@@ -7,8 +7,8 @@ import math
 # creating a blank window
 # for the animation
 fig = plt.figure()
-axis = plt.axes(xlim =(-2, 2),
-                ylim =(-2, 2))
+axis = plt.axes(xlim =(-2.2, 2.2),
+                ylim =(-2.2, 2.2))
   
 line, = axis.plot([], [], lw = 1)
    

@@ -1,6 +1,6 @@
 # visualize-irrationals
 
-Code plots the graph of exp(theta * i) + exp(theta * num * i) using matplotlib python library. The animation is written to an mp4 file.
+Code plots the graph of exp(theta * i) + exp(theta * num * i) using matplotlib python library. Here num is the irrational number to be visualized. Theta changes with each frame to get a new point on the graph. The animation is written to an mp4 file.
 
 # Install guide
 1. Install python3
