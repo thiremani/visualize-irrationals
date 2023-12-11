@@ -11,7 +11,7 @@ axis = plt.axes(xlim =(-2.2, 2.2),
                 ylim =(-2.2, 2.2))
   
 line, = axis.plot([], [], lw = 1)
-   
+
 # what will our line dataset
 # contain?
 def init():
